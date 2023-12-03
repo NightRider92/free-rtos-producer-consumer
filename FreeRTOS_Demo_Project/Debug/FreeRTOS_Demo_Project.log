@@ -1,9 +1,0 @@
-﻿  main.c
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\FreeRTOSHelper.h(80,13): warning C4098: 'vApplicationTickHook': 'void' function returning a value
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\FreeRTOSHelper.h(85,13): warning C4098: 'vApplicationDaemonTaskStartupHook': 'void' function returning a value
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\FreeRTOSHelper.h(111,13): warning C4098: 'vApplicationIdleHook': 'void' function returning a value
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\main.c(22,22): warning C4013: 'time' undefined; assuming extern returning int
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\main.c(79,15): warning C4090: 'function': different 'volatile' qualifiers
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\main.c(87,27): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'TaskFunction_t'
-C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\FreeRTOS_Demo_Project\main.c(88,27): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'TaskFunction_t'
-  FreeRTOS_Demo_Project.vcxproj -> C:\Users\Moran\source\repos\FreeRTOS_Demo_Project\Debug\FreeRTOS_Demo_Project.exe
