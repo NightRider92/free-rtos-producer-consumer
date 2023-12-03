@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configuration Files">
+      <UniqueIdentifier>{bd13805d-0ac2-4365-b7a6-dda908792c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source">
+      <UniqueIdentifier>{e1870b2a-4fe1-4bb7-bfb7-5d3c3d592f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Include">
+      <UniqueIdentifier>{7a647bdb-019f-4cf6-9539-7e7c75692aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Source">
+      <UniqueIdentifier>{aa925ff8-b11a-4b5b-9ce8-a43fd5e491b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Source\Portable">
+      <UniqueIdentifier>{236347a7-bff7-4c51-babc-eee138c5f9d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\event_groups.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\list.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\queue.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\stream_buffer.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\tasks.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\timers.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS Source\Source\Portable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\Run-time-stats-utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcKernelPort.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\trcSnapshotRecorder.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\portable\MemMang\heap_5.c">
+      <Filter>FreeRTOS Source\Source\Portable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\FreeRTOSConfig.h">
+      <Filter>Configuration Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\Trace_Recorder_Configuration\trcConfig.h">
+      <Filter>Configuration Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\Trace_Recorder_Configuration\trcKernelPortConfig.h">
+      <Filter>Configuration Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\Trace_Recorder_Configuration\trcKernelPortSnapshotConfig.h">
+      <Filter>Configuration Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Demo\WIN32-MSVC\Trace_Recorder_Configuration\trcSnapshotConfig.h">
+      <Filter>Configuration Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\event_groups.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\list.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\message_buffer.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\portable.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\projdefs.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\queue.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\semphr.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\stream_buffer.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\task.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\include\timers.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS\Source\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\Include\trcKernelPort.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\FreeRTOSv202212.01\FreeRTOS-Plus\Source\FreeRTOS-Plus-Trace\Include\trcRecorder.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeRTOSHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
